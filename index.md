@@ -1,4 +1,4 @@
-HEMANTHA REDDI
+<b>HEMANTHA REDDI</b>
 		495-Secretariat Hills, Hyderabad, Telangana-500089, India.
 			hemantha.reddi@gmail.com |+91 7386425223
 		LinkedIn - https://www.linkedin.com/in/hemantha-reddi-019591174
