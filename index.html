@@ -36,7 +36,7 @@
             <img class="profile-image img-fluid float-left rounded-circle" src="assets/images/profile.jpg" alt="profile image" />
             <div class="profile-content float-left">
                 <h1 class="name">Hemantha Reddi</h1>
-                <h2 class="desc">Apps Systems Engineer</h2>   
+                <h2 class="desc">Software Engineer</h2>   
                 <ul class="social list-inline">
                     <li class="list-inline-item"><a href="https://twitter.com/Hemantha190696"><i class="fab fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/hemantha-reddi-019591174/"><i class="fab fa-linkedin-in"></i></a></li>
@@ -56,7 +56,7 @@
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I work as an Apps Systems Engineer in Wells Fargo. I work for Billing (in Payments) application which deals with charging different types of customers with different tier structures for using Wells Fargo services and also process waivers. With 4+ years of Experience, I am a person who is dependable when it comes to availability and completes all my work within the given milestones with good quality deliverables. </p>
+                            <p>I am an experienced Software engineer currently working in JP Morgan. I work for both Settlement and EOD applicatons and I have a demostrated history of working with many technologies.I previously worked in Wells Fargo. With around 6 years of Experience, I am a person who is dependable when it comes to availability and completes all my work within the given milestones with good quality deliverables.</p>
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -173,48 +173,60 @@
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Apps Systems Engineer - <span class="place"><a href="#">Wells Fargo</a></span> <span class="year">(July 2017 - Present)</span></h3>
+							 <h3 class="title">Software Engineer - <span class="place"><a href="#">JP Morgan</a></span> <span class="year">(March 2022 - Present)</span></h3>
 								<ul>
-                                <li>I work for Billing (in Payments) application which deals with charging different types of customers with different tier structures for using Wells Fargo services and also process waivers. </li>
+                                <li>Working for 2 applications in Global Banking Platform.
+								<br/><b>Settlement Application:</b> It deals with translating financial debits and credits of our customers' accounts into the appropriate transactions for posting to the bank's general ledger accounts.
+								<br/><b>EOD(End of the Day) Application:</b> It serves as a central event triggering system which follows a pattern for each product, as part of End of the Day activities.
+								</li>
 								
-								<li> I manage Banker’s UI, with features like search customers, manage customers’ plans and
-charges, change billing accounts, add or remove waivers.</li>
-<li> Currently designing database and developing web services and batches for on boarding a
-new third party payment product.</li>
-<li>Added AutoSys JIL scripts for scheduler jobs and file watcher jobs. Written shell scripts to send
-outbound files and receive inbound files through NDM.</li>
-<li> Implemented JMS in Spring for sending and receiving messages from central repositories about
-customer profile data.</li>
-<li> Developed SOAP web services for product registering and unregistering of customers for clients.<br>
-<li> Worked on Oracle stored procedures and triggers for calculation of customer charges and
-account information changes.</li>
-<li> Designed and implemented Restful APIs for returning customer plans and product plans.
-<li> Implemented Circuit breaker as part of Code Resiliency for our application.<br>
-<li> Done Splunk heartbeat implementation to log heartbeat event logs which helps in health
-monitoring of Application.</li>
-<li> Developed an internal utility in Python for management of third party dependencies for our
-application.</li>
-
-<li> Created a Dashboard in React JS to help identify the key performance indicators for all
-applications in Payments Team.</li>
-<li> Upgraded application code to JDK 11 and done migration from Maven to Gradle.</li>
-<li> Contributed to root cause analysis and timely remediation of issues.</li>
-<li> Actively managed risk throughout the change management Lifecycle by replacing obsolete
-libraries, secure coding and remediation of OWASP listed vulnerabilities resulted as part of
-Blackduck and Fortify scans.</li>
-<li> Done all levels of Testing- Unit testing using Junits, written functional test cases, done system
-integration testing, working on Mutation testing. Created test cases and suites in DevTest.</li>
-<li> Collectively working in a Scrum team and following agile methodologies. Currently playing the
-role of ‘Scrum Master’ and also managing Release Technical Lead activities.</li>
-<li> Mentored and given knowledge transfer sessions to team members. Done Security peer reviews
-for team member’s code.</li>
-<li> For every release, working with the release management team, discussing game plans and
-supporting production deployments.</li>
-<li> Have been awarded with ‘Wells Fargo Champion award for living our values’.</li>
-<li> Have been promoted to Apps Systems Engineer 2/Engineering Analyst.</li>
+								<li>Implemented transational outbox for our kafka producer.</li>
+<li>Have done a POC for kafka error handling strategy and successfully implemented it. This served as an example for other applications and they have implemented the same mechanism.</li>
+<li>Have integrated and implemented Liquibase into our applications for database change version management.</li>
+<li>Have done accumulation on in-process accounts' data and sent the data file via MFTS to iRECS application. For back up storage, used AWS S3.</li>
+<li>Created many Kafka producers and Consumers for sending and receiving events across other applications.</li>
+<li>Have used AWS services like EC2, MSK for kafka clusters, EKS for Kubernetes, Cloudwatch for logs, SQS for usage of error queues in error handling mechanisms.</li>
+<li>Implemented Restful APIs for retriving product event details and for sending files from S3 to MFTS.</li>
+<li>Have followed and implement logging NFR (non functional requirement) and have created dashboard and alerts in Splunk.</li>
+<li>For MFTS transfer, created certs using keytool and managed them using AWS Secret manager.
+</li>
+<li>Contributed to root cause analysis and timely remediation of issues.</li>
+<li>Supported different test environments onboardings. Given KTs and done code reviews.
+</li>
 <ul>
-                            </div><!--//item-->
-                            <div class="item">
+</div><!--//item-->
+
+<div class="item">
+<h3 class="title">Software Engineer senior analyst - <span class="place"><a href="#">Wells Fargo</a></span> <span class="year">(July 2017 - February 2022)</span></h3><ul>
+<li>Worked for 2 applications in Payments Team.
+
+								<br/><b>Billing Application:</b> It deals with charging different types of customers with different tier structures for using Wells Fargo services and also process waivers.
+								<br/><b>Direct Pay application:</b> It provides business customers with an ability to make next day payments to the personal bank accounts of employees.
+								</li>			
+<li>Managed Banker’s UI, with features like search customers, manage customers’ plans and charges, change billing accounts, add or remove waivers.</li>
+<li>Worked on Accessibility design tickets as part of User Experience.</li>
+<li>Designed database and developed web services and batches for on boarding a new third party payment product for Billing.</li>
+<li>Added AutoSys JIL scripts for scheduler jobs and file watcher jobs. Written shell scripts to send outbound files and receive inbound files through NDM.</li>
+<li>Implemented JMS in spring boot for receiving messages from central repositories about customer profile data.</li>
+<li>Developed SOAP web services for product registering and unregistering of customers for clients.</li>
+<li>Worked on Oracle stored procedures and triggers for calculation of customer charges and account information changes.<br>
+<li>Designed and implemented Restful APIs for returning customer plans and product plans.</li>
+<li>Implemented Circuit breaker as part of Code Resiliency for our application.</li>
+
+<li>Done Splunk heartbeat implementation to log heartbeat event logs which helps in health monitoring of Application.</li>
+<li>Ensured security by masking of customer sensitive information in logs.</li>
+<li>Developed an internal utility in JAVAFX for management of third party dependencies for our application.</li>
+<li>Upgraded hibernate code to 5.x from 3.x. Done migration from Maven to Gradle.</li>
+<li>Actively managed risk throughout the change management Lifecycle by replacing obsolete libraries, secure coding and remediation of OWASP listed vulnerabilities resulted as part of Blackduck and Fortify scans.</li>
+<li>Done all levels of Testing- Unit testing using Junits, written functional test cases, done system integration testing, working on Mutation testing. Created test cases and suites in DevTest.</li>
+<li>Collectively worked in a Scrum team and followed agile methodologies. Also played the role of ‘Scrum Master’ and also managed Release Technical Lead activities for Billing application.</li>
+<li>Mentored and given knowledge transfer sessions to team members. Done Security peer reviews for team member’s code.</li>
+<li>For every release, worked with the release management team, discussed game plans and supported production deployments.</li>
+<li> Have been awarded with ‘Wells Fargo Champion award for living our values’.</li>
+<ul>
+</div><!--//item-->
+                            
+<div class="item">
                                 <h3 class="title">Intern - <span class="place"><a href="#">Wells Fargo</a></span> <span class="year">(Jan 2017 - Jun 2017)</span></h3>
                                 <ul><li>Followed TDD (Test Driven Development) approach by using Junits and Mockito to increase code coverage in SonarQube.</li>
 <li>Worked with Alerts team and contributed to creation and validation of different types of alerts for customers.</li>
@@ -275,40 +287,53 @@ supporting production deployments.</li>
                             <div class="skillset">
                                
                                 <div class="item">
-                                    <h3 class="level-title">Java and Spring<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="i primarily work using Java and Spring Boot at backend."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">Java and Spring<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I primarily work using Java and Spring Boot at backend."><i class="fas fa-info-circle"></i>Expert</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
+                                        <div class="level-bar-inner" data-level="98%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
                                 
                                 <div class="item">
-                                    <h3 class="level-title">REST &amp; SOAP Web services<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="In Wells Fargo, I developed SOAP web services for product registering and unregistering of customers for clients.Designed and implemented Restful APIs for returning customer plans and product plans.
+                                    <h3 class="level-title">REST &amp; SOAP Web services<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="In Wells fargo, developed both soap and rest web services for product registering and  retriving customer and product plans. In JPMC, written restful APIs for retriving product event details.
 "><i class="fas fa-info-circle"></i>Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="96%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML, CSS &amp; JavaScript <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="In Wells Fargo, I manage Banker’s UI, with features like search customers, manage customers’ plans and charges, change billing accounts, add or remove waivers etc."><i class="fas fa-info-circle"></i>Expert</span></h3>
+								
+								<div class="item">
+                                    <h3 class="level-title">Kafka<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="In JPMC, created many Kafka producers and Consumers for sending and receiving events across other 
+applications
+"><i class="fas fa-info-circle"></i>Pro</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
+                                        <div class="level-bar-inner" data-level="90%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
                                 
+                                
+                                
+                                
                                 <div class="item">
                                     <h3 class="level-title">Oracle, MySQL &amp; PostgreSQL<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I Have worked on all these databases."><i class="fas fa-info-circle"></i>Pro</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="86%">
+                                        <div class="level-bar-inner" data-level="90%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
 								
 								<div class="item">
-                                    <h3 class="level-title">React JS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Developed DashBoards using React JS"><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">Kubernetes<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Have worked on kubernetes for deploying and management of applications."><i class="fas fa-info-circle"></i>Good</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <h3 class="level-title">AWS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="In JPMC, I have used AWS services like S3, EC2, SQS, Secret manager, EKS, MSK, Cloudwatch etc."><i class="fas fa-info-circle"></i>Good</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
                                         </div>                                      
@@ -316,12 +341,28 @@ supporting production deployments.</li>
                                 </div><!--//item-->
 								
 								<div class="item">
+                                    <h3 class="level-title">HTML, CSS &amp; JavaScript <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="In Wells Fargo, I manage Banker’s UI, with features like search customers, manage customers’ plans and charges, change billing accounts, add or remove waivers etc."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="98%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+								
+								<!--<div class="item">
+                                    <h3 class="level-title">React JS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Developed DashBoards using React JS"><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div>                                
+                                </div>-->
+								
+								<!--<div class="item">
                                     <h3 class="level-title">Hibernate<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Upgraded application code to Hibernate 5.x version from 3.x version."><i class="fas fa-info-circle"></i>Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="90%">
                                         </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div>
+                                    </div>                                
+                                </div>-->
                                 
 								<p><a class="more-link" href="https://www.linkedin.com/in/hemantha-reddi-019591174/"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
                                 <!--<p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> -->
